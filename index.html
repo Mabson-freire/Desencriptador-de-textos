@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desencriptador de textos</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./assets/images/Logo-alura.svg" alt="Logo da alura">
+    </header>
+
+    <main>
+        <section class="conteudo">
+            <input type="text" id="conteudo__texto" name="texto-digitado" placeholder="Digite seu texto">
+
+            <p class="conteudo__aviso"><img src="/assets/images/exclamação-icone.svg" alt="icone exclamação"> Apenas letras minúsculas e sem acento.</p>
+
+            <button type="button" class="conteudo__botao botao-criptografar" >Criptografar</button>
+            <button type="button" class="conteudo__botao botao-descriptografar">Descriptografar</button>
+        </section>
+
+        <section class="retorno">
+            <div class="retorno__retorno-cheio">
+                <p class="retorno__retorno-cheio__texto"></p>
+                <button type="button" class="retorno__retorno-cheio__botao">Copiar</button>
+            </div>
+    
+            <div class="retorno__retorno-vazio">
+                <img class="retorno__retorno-vazio__imagem" src="./assets/images/bonequinho-da-lupa.svg" alt="bonequinho segurando uma lupa">
+                <h2 class="retorno__retorno-vazio__titulo">Nenhuma mensagem encontrada</h2>
+                <p class="retorno__retorno-vazio__informação">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape"></footer>
+</body>
+</html>
