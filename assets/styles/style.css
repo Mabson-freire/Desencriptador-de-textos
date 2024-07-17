@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+    --cor-fundo-cinza: #F3F5FC;
+    --cor-fundo-branco: #ffffff;
+    --cor-botao-azul: #0A3871;
+    --cor-botao-cinza: #D8DFE8;
+    --cor-texto-branco: #ffffff;
+    --cor-texto-azul: #0A3871;
+    --cor-texto-grafite: #343A40;
+    --cor-texto-cinza: #495057;
+}
