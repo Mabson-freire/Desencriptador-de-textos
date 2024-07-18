@@ -14,3 +14,13 @@
     --cor-texto-grafite: #343A40;
     --cor-texto-cinza: #495057;
 }
+
+body {
+    background-color: var(--cor-fundo-cinza);   
+}
+
+.cabecalho__titulo {
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
