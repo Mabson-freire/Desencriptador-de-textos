@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -17,7 +19,6 @@
 body {
     background-color: var(--cor-fundo-cinza);   
 }
-
 
 .cabecalho__titulo {
     padding-left: 2%;
@@ -103,19 +104,58 @@ main {
 
 .retorno {
     background-color: var(--cor-fundo-branco);
+    box-sizing: border-box;
 
+    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     margin: 2% 2%;
 
     border-radius: 32px;
-    box-shadow: 1px 1px 20px black;
+    box-shadow: 1px 1px 20px -15px black
+}
+
+.retorno__retorno-cheio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10%;
+    height: 100%;
+
+    font-size: 1.5rem;
+
+}
+
+textarea {
+    font-family: "Inter", sans-serif;
+    font-size: 100%;
+
+    border: none;
+    color: var(--cor-texto-cinza);
+    font-weight: 400;
+    text-align: center;
+
+    overflow-y: hidden;
+  
+}
+
+.retorno__retorno-cheio__botao {
+    border-radius: 24px;
+
+    width: 20.5rem;
+    height: 4.18rem; 
+
+    background-color: var(--cor-botao-cinza);
+    border: 2px solid var(--cor-botao-azul);
+
+    color: var(--cor-texto-azul);
 }
 
 .retorno__retorno-vazio {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     padding: 5%;
@@ -123,6 +163,16 @@ main {
 
 .retorno__retorno-vazio__imagem {
 
-    margin-bottom: 2rem;
+    margin: 2rem 0;
     width: 70%;
+}
+
+.retorno__retorno-vazio__titulo {
+    color: var(--cor-texto-grafite);
+
+    margin: 0 10%;
+    font-size: 1.5rem;  
+    font-weight: 600;
+
+    text-align: center;
 }
