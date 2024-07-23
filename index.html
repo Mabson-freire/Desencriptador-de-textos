@@ -11,26 +11,26 @@
     <main>
         <section class="conteudo">
             <img class="cabecalho__titulo" src="./assets/images/Logo-alura.svg" alt="Logo da alura">
-            <input class="conteudo__texto" type="text" id="conteudo__texto" name="texto-digitado" autofocus placeholder="Digite seu texto">
+            <textarea class="conteudo__texto" type="text" id="conteudo__texto" name="texto-digitado" autofocus placeholder="Digite seu texto"></textarea>
 
             <p class="conteudo__aviso"><img src="/assets/images/exclamação-icone.svg" alt="icone exclamação"> Apenas letras minúsculas e sem acento.</p>
 
             <div class="conteudo__botoes">
-                <button type="button" class="conteudo__botoes__botao botao-criptografar" >Criptografar</button>
+                <button type="button" class="conteudo__botoes__botao botao-criptografar" onclick="criptografar()">Criptografar</button>
                 <button type="button" class="conteudo__botoes__botao botao-descriptografar">Descriptografar</button>
             </div>
         </section>
 
         <section class="retorno">
             <div class="retorno__retorno-cheio">
-                <textarea class="retorno__retorno-cheio__texto" rows="15" cols="30" >testando o texto Lore Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam in repudiandae praesentium, ratione possimus ullam illum, dignissimos sequi veniam quae molestias nihil modi laborum totam, quod voluptatum doloremque! Magni, repudiandae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim a alias iusto porro neque tempora sequi architecto, ducimus dicta praesentium nihil nulla eius doloremque cupiditate harum perspiciatis. Iure, ducimus perferendis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus dolor, qui perferendis provident reiciendis ipsa. Dignissimos nostrum debitis, et voluptas quo voluptates repellat sequi cupiditate, autem, dolor rem a aut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa unde sint eligendi ipsum harum earum voluptates aspernatur corporis, nihil autem iusto alias aliquam id nesciunt laudantium sed explicabo repellendus natus.</textarea>
+                <textarea class="retorno__retorno-cheio__texto" rows="13" cols="30">habilitado</textarea>
                 <button type="button" class="retorno__retorno-cheio__botao">Copiar</button>
             </div>
     
             <div class="retorno__retorno-vazio">
                 <img class="retorno__retorno-vazio__imagem" src="./assets/images/bonequinho-da-lupa.svg" alt="bonequinho segurando uma lupa">
                 <h2 class="retorno__retorno-vazio__titulo">Nenhuma mensagem encontrada</h2>
-                <p class="retorno__retorno-vazio__informação">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <p class="retorno__retorno-vazio__informacao">Digite um texto que você deseja criptografar ou descriptografar.</p>
             </div>
         </section>
     </main>
@@ -38,5 +38,7 @@
     <footer class="rodape">
         <p class="rodape__texto">&copy;Copyright 2024 Mabson Freire</p>
     </footer>
+
+    <script src="./assets/app.js"></script>
 </body>
 </html>
