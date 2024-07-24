@@ -137,6 +137,9 @@ main {
 }
 
 textarea {
+    box-sizing: border-box;
+    width: 100%;
+
     font-family: "Inter", sans-serif;
     font-size: 100%;
 
@@ -145,14 +148,18 @@ textarea {
     font-weight: 400;
     text-align: center;
 
-    overflow-y: hidden;
-  
+    resize: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    caret-color: transparent;
+
 }
 
 .retorno__retorno-cheio__botao {
     border-radius: 24px;
 
-    width: 20.5rem;
+    width: 80%;
     height: 4.18rem; 
 
     background-color: var(--cor-botao-cinza);
