@@ -55,30 +55,11 @@ function descriptografar () {
     }
 }
 
-function copiarParaComputador (texto) {
-    // criando text area invisível para colocar o valor a ser copiado
-    var textArea = document.createElement('textarea')
-    textArea.style.position = 'fixed';
-    textArea.style.top = 0;
-    textArea.style.left = 0;
-    textArea.style.width = '2em';
-    textArea.style.height = '2em';
-    textArea.style.padding = 0;
-    textArea.style.border = 'none';
-    textArea.style.outline = 'none';
-    textArea.style.boxShadow = 'none';
-    textArea.style.background = 'transparent';
-    textArea.value = texto;
-    
-    // adicionando elemento invisível a pagina
-    document.body.appendChild(textArea)
-    textArea.select()
+function copiarTexto () {
+    let texto = document.getElementById('texto-retorno').value;
+    navigator.clipboard.writeText(texto);
+    alert("texto copiado com sucesso!");    
 
-    // tetativa de cópia
-
-    try {
-        const sucesso
-    }
-
-
+    ocultarElemento(campoCheio)
+    exibirElemento(campoVazio)
 }
