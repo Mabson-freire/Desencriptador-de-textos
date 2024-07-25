@@ -22,7 +22,7 @@
 }
 
 body {
-    background-image: linear-gradient(var(--cor-fundo-gradiente-b), var(--cor-fundo-principal), var(--cor-fundo-principal))
+    background-image: linear-gradient(var(--cor-fundo-principal), var(--cor-fundo-principal), var(--cor-fundo-gradiente-b), var(--cor-fundo-gradiente-c))
 }
 
 .cabecalho__titulo {
@@ -43,6 +43,7 @@ main {
 
     flex-direction: column;
 }
+
 .conteudo__texto {
     box-sizing: border-box;
 
@@ -228,6 +229,7 @@ textarea {
 
 footer {
     margin: 2% 0;
-    color: var(--cor-texto-claro);
+    color: var(--cor-texto-grafite);
     text-align: center;
 }
+
