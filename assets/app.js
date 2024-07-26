@@ -57,8 +57,9 @@ function descriptografar () {
 
 function copiarTexto () {
     let texto = document.getElementById('texto-retorno').value;
+    select(texto)
     navigator.clipboard.writeText(texto);
-    alert("texto copiado com sucesso!");    
+    alert("texto copiado com sucesso!");
 
     ocultarElemento(campoCheio)
     exibirElemento(campoVazio)
