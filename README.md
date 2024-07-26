@@ -1,5 +1,9 @@
 # Decodificador de Texto - Inspirado no Playstation
 
+# Demonstração:
+
+![GIF animado](./assets/images/0726.gif)
+
 **Descrição:**
 Este projeto, desenvolvido como parte do desafio do Oracle ONE Next Education T7, em parceria com a Alura, tem como objetivo implementar um decodificador de texto. A aplicação permite criptografar e descriptografar textos utilizando um conjunto pré-definido de regras de substituição de caracteres.
 
@@ -42,10 +46,6 @@ Este projeto, desenvolvido como parte do desafio do Oracle ONE Next Education T7
 * **...
   
 3. Execute o arquivo index.html (ou o arquivo principal do seu projeto) em um navegador.
-# Demonstração:
-
-[Inserir imagem da interface do seu projeto aqui]
-[Inserir outra imagem demonstrando alguma funcionalidade específica aqui]
 
 Agradecimentos:
 Agradeço à Alura e à Oracle pela oportunidade de participar do Oracle ONE Next Education T7 e por proporcionar este desafio que me permitiu aprimorar minhas habilidades em desenvolvimento web.
