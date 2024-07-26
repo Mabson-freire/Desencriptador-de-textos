@@ -55,9 +55,8 @@ function descriptografar () {
     }
 }
 
-function copiarTexto () {
+function copiarTexto() {
     let texto = document.getElementById('texto-retorno').value;
-    select(texto)
     navigator.clipboard.writeText(texto);
     alert("texto copiado com sucesso!");
 
